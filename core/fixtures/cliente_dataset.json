@@ -1,0 +1,142 @@
+[
+    {
+      "model": "core.cliente",
+      "pk": 1,
+      "fields": {
+            "banco": 1,
+            "pessoa": 1,
+            "senha": "admin2021",
+            "agencia": "10340",
+            "conta": "98329",
+            "saldo": 10000,
+            "cheque_especial": 1000,
+            "data_cadastro": "2000-06-19"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 2,
+        "fields": {
+            "banco": 2,
+            "pessoa": 2,
+            "senha": "admin2021",
+            "agencia": "10341",
+            "conta": "98322",
+            "saldo": 1213,
+            "cheque_especial": 1023,
+            "data_cadastro": "2017-03-09"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 3,
+        "fields": {
+            "banco": 3,
+            "pessoa": 3,
+            "senha": "admin2021",
+            "agencia": "10331",
+            "conta": "98112",
+            "saldo": 24323,
+            "cheque_especial": 1323,
+            "data_cadastro": "2012-12-05"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 4,
+        "fields": {
+            "banco": 4,
+            "pessoa": 4,
+            "senha": "admin2021",
+            "agencia": "40331",
+            "conta": "9112",
+            "saldo": 223,
+            "cheque_especial": 323,
+            "data_cadastro": "2015-02-23"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 5,
+        "fields": {
+            "banco": 5,
+            "pessoa": 5,
+            "senha": "admin2021",
+            "agencia": "2331",
+            "conta": "9142",
+            "saldo": 2,
+            "cheque_especial": 32,
+            "data_cadastro": "2021-04-30"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 6,
+        "fields": {
+            "banco": 1,
+            "pessoa": 6,
+            "senha": "admin2021",
+            "agencia": "1231",
+            "conta": "1212",
+            "saldo": 20000,
+            "cheque_especial": 20000,
+            "data_cadastro": "2021-02-12"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 7,
+        "fields": {
+            "banco": 2,
+            "pessoa": 7,
+            "senha": "admin2021",
+            "agencia": "1122",
+            "conta": "4325",
+            "saldo": 2320,
+            "cheque_especial": 5000,
+            "data_cadastro": "2012-04-09"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 8,
+        "fields": {
+            "banco": 3,
+            "pessoa": 8,
+            "senha": "admin2021",
+            "agencia": "2323",
+            "conta": "6423",
+            "saldo": 10000,
+            "cheque_especial": 100000,
+            "data_cadastro": "2010-10-11"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 9,
+        "fields": {
+            "banco": 4,
+            "pessoa": 9,
+            "senha": "admin2021",
+            "agencia": "1345",
+            "conta": "2323",
+            "saldo": 23440,
+            "cheque_especial": 10000,
+            "data_cadastro": "2007-11-10"
+        }
+    },
+    {
+        "model": "core.cliente",
+        "pk": 10,
+        "fields": {
+            "banco": 5,
+            "pessoa": 10,
+            "senha": "admin2021",
+            "agencia": "3425",
+            "conta": "5343",
+            "saldo": 32320,
+            "cheque_especial": 42343,
+            "data_cadastro": "2000-11-10"
+        }
+    }
+]

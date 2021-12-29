@@ -1,0 +1,152 @@
+[
+    {
+      "model": "core.pessoa",
+      "pk": 1,
+      "fields": {
+        "nome": "Pedro Lucas Teixeira da Silva",
+        "sexo": "masculino",
+        "tipodepessoa": "fisica",
+        "nomefantasia": "",
+        "cpfcnpj": "29459407013",
+        "datanascimento": "1997-08-17",
+        "estadocivil": "solteiro",
+        "nacionalidade": "brasileiro",
+        "profissao": "programador"
+      }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 2,
+        "fields": {
+            "nome": "Maria Sofhia Teixeira da Silva",
+            "sexo": "feminino",
+            "tipodepessoa": "fisica",
+            "nomefantasia": "",
+            "cpfcnpj": "40472429000",
+            "datanascimento": "2000-02-07",
+            "estadocivil": "solteiro",
+            "nacionalidade": "brasileiro",
+            "profissao": "advogada"
+        }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 3,
+        "fields": {
+            "nome": "Laise Lima Teixiera",
+            "sexo": "feminino",
+            "tipodepessoa": "fisica",
+            "nomefantasia": "",
+            "cpfcnpj": "00265975000",
+            "datanascimento": "1967-09-29",
+            "estadocivil": "solteiro",
+            "nacionalidade": "brasileiro",
+            "profissao": "contadora"
+        }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 4,
+        "fields": {
+            "nome": "Pedro Airton da Silva",
+            "sexo": "masculino",
+            "tipodepessoa": "fisica",
+            "nomefantasia": "",
+            "cpfcnpj": "28056647015",
+            "datanascimento": "1960-09-01",
+            "estadocivil": "casado",
+            "nacionalidade": "brasileiro",
+            "profissao": "programador"
+        }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 5,
+        "fields": {
+            "nome": "Arthur Smith da Silva",
+            "sexo": "masculino",
+            "tipodepessoa": "fisica",
+            "nomefantasia": "",
+            "cpfcnpj": "03388177007",
+            "datanascimento": "2012-08-18",
+            "estadocivil": "solteiro",
+            "nacionalidade": "brasileiro",
+            "profissao": "cacador"
+        }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 6,
+        "fields": {
+            "nome": "Kevin e Fábio Pães e Doces ME",
+            "sexo": "",
+            "tipodepessoa": "juridica",
+            "nomefantasia": "Pães e Doces",
+            "cpfcnpj": "60984075000186",
+            "datanascimento": "2012-08-18",
+            "estadocivil": "",
+            "nacionalidade": "brasileiro",
+            "profissao": "alimentos"
+        }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 7,
+        "fields": {
+            "nome": "Benedito e Cecília Pizzaria Delivery Ltda",
+            "sexo": "",
+            "tipodepessoa": "juridica",
+            "nomefantasia": "Pizzaria Delivery",
+            "cpfcnpj": "83708739000180",
+            "datanascimento": "2016-06-10",
+            "estadocivil": "",
+            "nacionalidade": "brasileiro",
+            "profissao": "alimentos"
+        }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 8,
+        "fields": {
+            "nome": "Antonio e Tatiane Contábil Ltda",
+            "sexo": "",
+            "tipodepessoa": "juridica",
+            "nomefantasia": "Tatiane Contábil",
+            "cpfcnpj": "09167497000101",
+            "datanascimento": "2016-07-08",
+            "estadocivil": "",
+            "nacionalidade": "brasileiro",
+            "profissao": "juridico"
+        }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 9,
+        "fields": {
+            "nome": "Luan e Benjamin Entulhos ME",
+            "sexo": "",
+            "tipodepessoa": "juridica",
+            "nomefantasia": "Benjamin Entulhos",
+            "cpfcnpj": "41537604000159",
+            "datanascimento": "2016-07-05",
+            "estadocivil": "",
+            "nacionalidade": "brasileiro",
+            "profissao": "outros"
+        }
+    },
+    {
+        "model": "core.pessoa",
+        "pk": 10,
+        "fields": {
+            "nome": "Victor e Hugo Vidros ME",
+            "sexo": "",
+            "tipodepessoa": "juridica",
+            "nomefantasia": "Hugo Vidros",
+            "cpfcnpj": "79082999000115",
+            "datanascimento": "2016-07-23",
+            "estadocivil": "",
+            "nacionalidade": "brasileiro",
+            "profissao": "outros"
+        }
+    }
+]

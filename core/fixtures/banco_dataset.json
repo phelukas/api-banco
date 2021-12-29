@@ -1,0 +1,52 @@
+[
+    {
+      "model": "core.banco",
+      "pk": 1,
+      "fields": {
+        "nome": "PLbanck",
+        "codigo": 1,
+        "cheque_especial_inicial": 2000,
+        "limite_inicial": 1000
+      }
+    },
+    {
+        "model": "core.banco",
+        "pk": 2,
+        "fields": {
+          "nome": "NewsBank",
+          "codigo": 2,
+          "cheque_especial_inicial": 1000,
+          "limite_inicial": 12342
+        }
+    },
+    {
+        "model": "core.banco",
+        "pk": 3,
+        "fields": {
+          "nome": "Paybanck",
+          "codigo": 3,
+          "cheque_especial_inicial": 0,
+          "limite_inicial": 0
+        }
+    },
+    {
+        "model": "core.banco",
+        "pk": 4,
+        "fields": {
+          "nome": "Pbanco",
+          "codigo": 4,
+          "cheque_especial_inicial": 20,
+          "limite_inicial": 100
+        }
+    },
+    {
+        "model": "core.banco",
+        "pk": 5,
+        "fields": {
+          "nome": "U.S Bank Branch",
+          "codigo": 5,
+          "cheque_especial_inicial": 20000,
+          "limite_inicial": 10000
+        }
+    } 
+]
