@@ -3,9 +3,9 @@
 
 # Sobre o projeto
 
-Essa é uam simples api de um sistema bancario com dados fictício.
+Essa é uma simples api de um sistema bancario com dados fictício.
 
-## Intalação
+## Instalação
 Utilizando Docker juntamente com o docker-compose você vai ter o projeto intalado e rodando na porta 8000.
 Depois de git clone entre no diretorio raiz do projeto e execute **docker-compose up**.
 
