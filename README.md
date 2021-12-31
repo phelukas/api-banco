@@ -20,11 +20,8 @@ Para solicitar os tokens de acesso, primeiro você precisa já ter criado um usu
 
 `POST /api/token/`
 
-     curl -X POST "http://127.0.0.1:8000/api/user/" \
+     curl -X POST "http://127.0.0.1:8000/api/token/" \
      --form 'username="pedrolucas"' \
-     --form 'first_name="pedro"' \
-     --form 'last_name="lucas"' \
-     --form 'email="pedrolucas@gmail.com"' \
      --form 'password="pedro"' \   
 
 ### Response
@@ -34,7 +31,7 @@ Para solicitar os tokens de acesso, primeiro você precisa já ter criado um usu
      }
 
 
-## Criar um cliente
+## Criar um usuario
 
 ### Request
 
