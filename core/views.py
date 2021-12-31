@@ -71,6 +71,7 @@ class ClienteView(APIView):
             serializer_cliente.save()
             return Response(serializer_cliente.data, status=status.HTTP_201_CREATED)
         else:
+            models.Pessoa.objects.get(id=pessoa.instance.id).delete()
             return Response(serializer_cliente.errors, status=status.HTTP_400_BAD_REQUEST)
     
 
