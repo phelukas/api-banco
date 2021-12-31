@@ -1,9 +1,11 @@
+from rest_framework.permissions import IsAuthenticated
 from rest_framework_xml.renderers import XMLRenderer
 from django.views.decorators.cache import cache_page
 from django.utils.decorators import method_decorator
 from rest_framework.renderers import JSONRenderer
 from django.forms.models import model_to_dict
 from rest_framework.response import Response
+from django.contrib.auth.models import User
 from rest_framework.views import APIView
 from rest_framework import status
 from django.http import Http404
@@ -11,10 +13,28 @@ from core import serializers
 from core import models
 from core import utils
 
+
+class UserView(APIView):
+
+    def get(self, request, pk=None):
+
+        users = User.objects.all()
+        serializer = serializers.UserSerializer(users, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+    def post(self, request, format=None):
+
+        serializer = serializers.UserSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 class ClienteView(APIView):
     """View que lista todos os clientes e suas informações."""
 
     renderer_classes = [JSONRenderer,XMLRenderer,]
+    permission_classes = (IsAuthenticated,)
     
     def get_object(self, pk):
 
@@ -122,6 +142,8 @@ class ClienteView(APIView):
 class BancoView(APIView):
     """View responsavel pela listagem dos bancos cadastrados"""
 
+    permission_classes = (IsAuthenticated,)
+
     def get_object(self, pk):
 
         try:
@@ -191,6 +213,8 @@ class BancoView(APIView):
 class SaqueView(APIView):
     """View responsavel pelo saque."""
 
+    permission_classes = (IsAuthenticated,)
+
     def get_object(self, pk):
 
         try:
@@ -222,6 +246,8 @@ class SaqueView(APIView):
 
 class DepositoView(APIView):
     """View responsavel pelo deposito em conta."""
+
+    permission_classes = (IsAuthenticated,)
 
     def get_object(self, pk):
 
